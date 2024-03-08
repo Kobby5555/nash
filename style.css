@@ -1,0 +1,92 @@
+html{
+    background-image: url(img56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  100%;
+    color: white;
+}
+#top{
+    font-size: 30px;
+}
+#thestart{
+    display: flex;
+}
+nav{
+    display: flex;
+    position: Absolute;  left:30%;
+}
+img{
+    width: 20px;
+    height: 20px;
+    top: 700px;
+    padding-left: 20px;
+}
+#symbols{
+    position: absolute;
+    top: 95%;
+}
+#nash{
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    top: 20%;
+    left: 30%;
+    bottom: 60%;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: black;
+    background-color:transparent;
+    animation: slide  4s infinite;
+    box-shadow: 2px 2px 2px  #4d0c74;
+
+}
+.hi{
+    background-color: blue;
+    border-radius: 20px;
+    width: 100px;
+    padding: 6px;
+}
+span{
+    font-size: 20px;
+}
+.location{
+    font-size: 20px;
+}
+#name{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(103, 30, 170);
+}
+a{
+    color: rgb(187, 139, 117);
+}
+#home:hover{
+    color: red;
+}
+#about:hover{
+    color: orange;
+}
+#skills:hover{
+    color: blue;
+}
+#experience:hover{
+    color: green;
+}
+#contact:hover{
+    color: brown;
+}
+#uglogo{
+    width: 700px;
+    height: 700px;
+    position:fixed;
+    top: 20%;
+    left: 20%;
+}
+@keyframes slide{
+    from{
+        left: 100px;
+    }
+    to{
+        left:500px;
+        }
+}
